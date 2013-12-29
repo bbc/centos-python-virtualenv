@@ -3,7 +3,7 @@
 
 Name:           python-virtualenv
 Version:        1.10.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Tool to create isolated Python environments
 
 Group:          Development/Languages
@@ -66,6 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.10.1-2
+- Mass rebuild 2013-12-27
+
 * Tue Aug 20 2013 Robert Kuska <rkuska@redhat.com> - 1.10.1-1
 - Update to v1.10.1 to deal with different securiy issue
 Resolves: CVE-2013-1633 
